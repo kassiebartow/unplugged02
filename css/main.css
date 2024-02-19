@@ -88,7 +88,6 @@ textarea {
    ========================================================================== */
 
 .content-wrapper {
-  outline: 3px dotted red;
   width: 90%;
   margin: 50px 0;
 }
@@ -210,7 +209,7 @@ aside {
 }
 
 .reviews h2 {
-  
+  margin: 40px;
 }
 
 .reviews h3 {
@@ -232,7 +231,7 @@ aside {
   justify-content: center;
 }
 
-.contact-content {
+.contact-content p {
   margin: 0;
 }
 
@@ -409,7 +408,7 @@ aside {
   }
 
   .features .features-items-description {
-    width: 50%;
+    width: 62%;
   }
 
   /* Tablet Reviews */
@@ -486,6 +485,68 @@ aside {
 
 @media only screen and (min-width: 1200px) {
   /*Desktop styles here*/
+
+  /* Desktop General Styles */
+
+  .content-wrapper {
+    max-width: 960px;
+  }
+
+  /* Desktop Header */
+
+  header {
+    padding: 15px 0;
+  }
+
+  /* Desktop Hero */
+
+  .hero-area h1 {
+    width: 80%;
+  }
+
+  /* Desktop Aside */
+
+  aside .content-wrapper {
+    justify-content: space-around;
+  }
+
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form {
+    width: 30%;
+  }
+
+  /* Desktop Features */
+
+  .features h2 {
+    width: 90%;
+  }
+
+  .features article {
+    flex-basis: 33%;
+  }
+
+  /* Desktop Reviews */
+
+  .reviews article div {
+    width: 42%;
+  }
+
+  /* ==========================================================================
+   Desktop About Page
+   ========================================================================== */
+
+  .mission h2,
+  .contact-section .content-wrapper h2 {
+    width: 95%;
+  }
+
+  /* ==========================================================================
+   Desktop FAQ Page
+   ========================================================================== */
+
+  .faq h2 {
+    width: 100%;
+  }
 }
 
 @media print,
