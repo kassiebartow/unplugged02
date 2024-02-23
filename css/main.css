@@ -132,9 +132,12 @@ p {
 }
 
 img {
+  width: 100%;
 }
 
 figure {
+  margin: 0;
+  align-items: center;
 }
 
 address {
@@ -160,6 +163,10 @@ header .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+header figure {
+  width: 60%;
 }
 
 .header-divider {
@@ -228,6 +235,10 @@ footer .copyright {
 /* Hero Area */
 
 .hero-area {
+  background: url(../img/unplugged-retreat.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
   display: flex;
   justify-content: center;
 }
@@ -276,6 +287,10 @@ input[type="button"] {
 /* Features */
 
 .features {
+  background: url(../img/unplugged-retreat-features.jpg) center no-repeat #333;
+  background-size: cover;
+  background-position: center;
+
   display: flex;
   justify-content: center;
 }
@@ -507,6 +522,10 @@ input[type="button"] {
 
   /* Tablet Hero Area */
 
+  .hero-area {
+    min-height: 600px;
+  }
+
   .hero-area h1 {
     font-size: 3em;
     line-height: 1;
@@ -556,7 +575,7 @@ input[type="button"] {
     width: 85%;
   }
 
-  .reviews article div {
+  .reviews article div, .reviews article figure {
     width: 49%;
   }
 
@@ -584,7 +603,7 @@ input[type="button"] {
 
   footer h4 {
     font-size: 1.5em;
-    margin-bottom: 40px
+    margin-bottom: 40px;
   }
 
   footer p {
@@ -665,7 +684,8 @@ input[type="button"] {
     font-size: 2.25em;
   }
 
-  h3, h4 {
+  h3,
+  h4 {
     font-size: 1.875em;
   }
 
@@ -743,10 +763,10 @@ input[type="button"] {
     font-size: 3em;
   }
 
-  .faq h4, .faq p {
-    font-size; 1.125em;
+  .faq h4,
+  .faq p {
+    font-size: 1.125em;
     line-height: 1em;
-  }
   }
 }
 
