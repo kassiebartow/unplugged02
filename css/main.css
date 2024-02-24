@@ -304,6 +304,7 @@ input[type="button"] {
 
 .features h2 {
   margin-bottom: 60px;
+  margin-top: 0;
 }
 
 .features article {
@@ -338,6 +339,7 @@ input[type="button"] {
 
 .reviews h2 {
   margin-bottom: 40px;
+  margin-top: 0;
   line-height: 1;
 }
 
@@ -356,10 +358,18 @@ input[type="button"] {
   background-color: #527158;
 }
 
+.mission h2 {
+  margin: 0;
+}
+
 .contact-section {
   display: flex;
   justify-content: center;
   background-color: #2a423a;
+}
+
+.contact-section h2 {
+  margin: 0;
 }
 
 .contact-content p {
@@ -387,9 +397,9 @@ input[type="button"] {
    ========================================================================== */
 
 .faq {
+  background-color: #527158;
   display: flex;
   justify-content: center;
-  background-color: #527158;
 }
 
 .faq .content-wrapper {
@@ -403,6 +413,7 @@ input[type="button"] {
 .faq h2 {
   margin-bottom: 40px;
   line-height: 1;
+  margin-top: 0;
 }
 
 .faq-content {
@@ -748,6 +759,10 @@ input[type="button"] {
     justify-content: space-around;
   }
 
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form {
+    width: 30%;
+  }
 
   .form-description p {
     font-size: 1.125em;
