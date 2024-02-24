@@ -316,6 +316,11 @@ input[type="button"] {
   margin: 0;
 }
 
+.features i {
+	font-size: 3.75em;
+    margin-bottom: 40px;
+}
+
 /* Reviews */
 
 .reviews {
@@ -727,10 +732,6 @@ input[type="button"] {
     justify-content: space-around;
   }
 
-  aside .content-wrapper .form-description,
-  aside .content-wrapper .form {
-    width: 30%;
-  }
 
   .form-description p {
     font-size: 1.125em;
